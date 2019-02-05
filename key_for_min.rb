@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   output = nil
+  lowest_val
   values = []
   # since I can't use values
   name_hash.each do |name, val|
