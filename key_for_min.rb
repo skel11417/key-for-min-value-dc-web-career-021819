@@ -9,8 +9,12 @@ def key_for_min_value(name_hash)
     values << val
   end
   
+  
+  
   name_hash.each do |name, val|
-    lowest_val = name
+    if lowest_val = val
+      output = name
+    end
   end
   lowest_val
 end
