@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
     if val < lowest_val
       lowest_val = val
     end
+  end
   
   name_hash.each do |name, val|
     if lowest_val = val
